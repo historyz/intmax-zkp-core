@@ -4,7 +4,7 @@ use plonky2::{
         hash_types::{HashOutTarget, RichField},
         hashing::SPONGE_WIDTH,
     },
-    iop::target::{BoolTarget, Target},
+    iop::{target::{BoolTarget, Target}, witness::WitnessWrite},
     plonk::{circuit_builder::CircuitBuilder, config::AlgebraicHasher},
 };
 
